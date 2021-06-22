@@ -10,10 +10,10 @@ abstract class BaseTabAdapter(fragment: FragmentManager, lifecycle: Lifecycle) :
     abstract val fragments: ArrayList<Fragment>
 
     override fun getItemCount(): Int {
-        return  fragments!!.size
+        return  fragments.size
     }
 
     override fun createFragment(position: Int): Fragment {
-        return  fragments!![position]
+        return  fragments[position]
     }
 }

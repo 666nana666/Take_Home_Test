@@ -22,6 +22,7 @@ class TakeHomeTestApplication : Application(), KodeinAware {
                 this@TakeHomeTestApplication
             )
         )
+
         bind() from singleton {
             RatioViewModelFactory()
         }

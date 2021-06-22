@@ -1,16 +1,13 @@
 package com.panca.take_home_test.ui.ratio
 
 import android.view.LayoutInflater
-import androidx.core.content.ContextCompat
 import androidx.lifecycle.ViewModelProvider
 import com.google.android.material.tabs.TabLayoutMediator
-import com.panca.take_home_test.R
 import com.panca.take_home_test.base.BaseActivity
 import com.panca.take_home_test.databinding.ActivityRatioBinding
 import org.kodein.di.KodeinAware
 import org.kodein.di.android.kodein
 import org.kodein.di.generic.instance
-import timber.log.Timber
 
 class RatioActivity : BaseActivity<ActivityRatioBinding>(), KodeinAware {
 
